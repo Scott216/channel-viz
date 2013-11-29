@@ -16,7 +16,7 @@
 		defaultFeeds	= [42280], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Mount Snow Stats', // Replaces Xively logo in the header
 		dataDuration	= '7days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/quick_reference/historical_data/
-		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
+		dataInterval	= 3600, // Default interval for data to be displayed (in seconds)
 		dataColor		= '0A1922', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
 
